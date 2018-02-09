@@ -1,6 +1,6 @@
-# Commands-CheatSheet
+# **Commands-CheatSheet**
 All the commands I need so far.
-# **Vim Command**
+# Vim Command
 
 | Keys/Command | Description |
 |:---:|:---:|
