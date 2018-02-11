@@ -35,3 +35,16 @@ All the commands I need so far.
 | git commit | multi-line commit, quit with shift + : wq |
 | git push | push to the Github repository (step 3) |
 | git pull | pull the github repository to local |
+
+# C/C++ Compile Flags
+
+| Keys/Command | Description |
+|:---:|:---:|
+| C Compile | gcc -pedantic -Wall -ansi filename.c |
+| C++ Compile | g++ --std=c++14 -pedantic -Wall filename.cpp |
+
+# MAC Terminal
+
+| Keys/Command | Description |
+|:---:|:---:|
+| ctrl + c | quit the running program |
