@@ -40,8 +40,8 @@ All the commands I need so far.
 
 | Keys/Command | Description |
 |:---:|:---:|
-| C Compile | gcc -pedantic -Wall -ansi filename.c |
-| C++ Compile | g++ --std=c++14 -pedantic -Wall filename.cpp |
+| gcc -pedantic -Wall -ansi filename.c | C Compile |
+| g++ --std=c++14 -pedantic -Wall filename.cpp | C++ Compile |
 
 # MAC Terminal
 
