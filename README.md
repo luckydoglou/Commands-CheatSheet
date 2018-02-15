@@ -35,6 +35,9 @@ All the commands I need so far.
 | git commit | multi-line commit, quit with shift + : wq |
 | git push | push to the Github repository (step 3) |
 | git pull | pull the github repository to local |
+| git config --global user.name "your name" | set a name that is identifiable for credit when review version history |
+| git config --global user.email emailAdress | set an email address that will be associated with each history marker |
+| git config --global color.ui auto | set automatic command line coloring for Git for easy reviewing |
 
 # C/C++ Compile Flags
 
