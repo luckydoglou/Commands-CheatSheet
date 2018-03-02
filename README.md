@@ -50,4 +50,20 @@ All the commands I need so far.
 
 | Keys/Command | Description |
 |:---:|:---:|
+| ls | short list |
+| cd / cd .. / cd - | home directory / parent directory / previous directory |
 | ctrl + c | quit the running program |
+| command + K / clear | clears the screen |
+| mv [file] [new filename] | Rename file | 
+
+# Windows Terminal
+| Keys/Command | Description |
+|:---:|:---:|
+| dir | directory |
+| cd | home directory |
+
+
+
+
+
+
