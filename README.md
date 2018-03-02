@@ -54,7 +54,7 @@ All the commands I need so far.
 | cd / cd .. / cd - | home directory / parent directory / previous directory |
 | ctrl + c | quit the running program |
 | command + K / clear | clears the screen |
-| mv [file] [new filename] | Rename file | 
+| mv [file] [new filename] | move / rename file | 
 
 # Windows Terminal
 | Keys/Command | Description |
