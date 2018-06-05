@@ -57,7 +57,7 @@ All the commands I need so far.
 | mv [file] [new filename] | move / rename file |
 | [command-a] && [command-b] | run command b if command a succeeded |
 | [command-a]; [command-b] | run command a then command b, regardless of success of a |
-| how to cd to a directory with a name containing spaces in bash? | put / (backslash) before the space |
+| how to cd to a directory with a name containing spaces in bash? | put \ (backslash) before the space |
 
 # Windows Terminal
 | Keys/Command | Description |
