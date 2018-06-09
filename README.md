@@ -54,6 +54,7 @@ All the commands I need so far.
 | cd / cd .. / cd - | home directory / parent directory / previous directory |
 | ctrl + c | quit the running program |
 | command + K / clear | clears the screen |
+| touch [filename] | create a new file |
 | mv [file] [new filename] | move / rename file |
 | [command-a] && [command-b] | run command b if command a succeeded |
 | [command-a]; [command-b] | run command a then command b, regardless of success of a |
