@@ -43,7 +43,8 @@ All the commands I need so far.
 
 | Keys/Command | Description |
 |:---:|:---:|
-| gcc -pedantic -Wall -ansi filename.c | C Compile |
+| gcc -pedantic -Wall -ansi filename.c | C Compile for C99 |
+| gcc -std=c11 -Wall -pthread filename.c | C11 with pthread flag |
 | g++ --std=c++14 -pedantic -Wall filename.cpp | C++ Compile |
 
 # MAC Terminal
