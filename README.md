@@ -38,6 +38,13 @@ All the commands I need so far.
 | git config --global user.name "your name" | set a name that is identifiable for credit when review version history |
 | git config --global user.email emailAdress | set an email address that will be associated with each history marker |
 | git config --global color.ui auto | set automatic command line coloring for Git for easy reviewing |
+| git branch -a | show all branches |
+| git branch -d branchName | delete the branch from local repo |
+| git push remoteName --delete branchName | delete the branch from remote repo |
+| git reset --hard <old-commitID> | commit id in local(can use commit id from github), step1 |
+| git push -f remoteName branchName | reset github repo, e.g. git push -f origin branchName, setp 2 |
+| git log | view commit history |
+| git merge branchName | merge brancName into current branch |
 
 # C/C++ Compile Flags
 
@@ -47,7 +54,7 @@ All the commands I need so far.
 | gcc -std=c11 -Wall -pthread filename.c | C11 with pthread flag |
 | g++ --std=c++14 -pedantic -Wall filename.cpp | C++ Compile |
 
-# MAC Terminal
+# MAC Terminal/Shortcut
 
 | Keys/Command | Description |
 |:---:|:---:|
@@ -60,6 +67,7 @@ All the commands I need so far.
 | [command-a] && [command-b] | run command b if command a succeeded |
 | [command-a]; [command-b] | run command a then command b, regardless of success of a |
 | how to cd to a directory with a name containing spaces in bash? | put \ (backslash) before the space |
+| Shift + Command + . | Show or hide hidden file in Finder |
 
 # Windows Terminal
 | Keys/Command | Description |
@@ -67,7 +75,20 @@ All the commands I need so far.
 | dir | directory |
 | cd | home directory |
 
+# Homebrew
+| Keys/Command | Description |
+|:---:|:---:|
+| | To Slove the "Error: Another active Homebrew process is already in progress" when using "brew update" |
+| rm -rf /usr/local/var/homebrew/locks | step 1, remove the lock |
+| sudo chown -R "$USER":admin /usr/local | step 2, change ownership to give permission |
+| brew cleanup | step 3, not sure what this do, maybe not important |
+| | Now we are in "Error: Fetching /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cor failed" or "error: cannot open .git/FETCH_HEAD: Permission denied" |
+| brew update-reset | setp 4, reset! |
+| brew update | step 5 |
 
+# Bash Commands
+| Keys/Command | Description |
+|:---:|:---:|
 
 
 
